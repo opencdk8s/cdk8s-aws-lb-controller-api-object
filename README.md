@@ -7,7 +7,7 @@ API Object for AWS Load Balancer Controller, powered by the [cdk8s project](http
 ```typescript
 import { Construct } from 'constructs';
 import { App, Chart, ChartProps } from 'cdk8s';
-import {AWSLoadBalancerControllerObject} from '@opencdk8s/cdk8s-aws-lb-controller-api-object'
+import { AWSLoadBalancerControllerObject } from '@opencdk8s/cdk8s-aws-lb-controller-api-object'
 
 
 export class MyChart extends Chart {
