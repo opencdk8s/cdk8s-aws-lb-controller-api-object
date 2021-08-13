@@ -100,8 +100,8 @@ $ pip install cdk8s-aws-lb-controller-api-objects
 2. Bootstrap the repo:
   
     ```bash
-    npx projen   # generates package.json 
     yarn install # installs dependencies
+    yarn projen   
     ```
 3. Development scripts:
    |Command|Description
