@@ -1,11 +1,12 @@
 const { ConstructLibraryCdk8s } = require('projen');
 
+
 const project = new ConstructLibraryCdk8s({
   author: 'Hunter Thompson',
   authorAddress: 'aatman@auroville.org.in',
-  cdk8sVersion: '1.0.0-beta.24',
-  cdk8sPlusVersion: '1.0.0-beta.28',
-  constructsVersion: '3.3.80',
+  cdk8sVersion: '1.0.0-beta.27',
+  cdk8sPlusVersion: '1.0.0-beta.50',
+  constructsVersion: '3.3.120',
   defaultReleaseBranch: 'development',
   stability: 'experimental',
   jsiiFqn: 'projen.ConstructLibraryCdk8s',
@@ -28,7 +29,7 @@ const project = new ConstructLibraryCdk8s({
   readme: true,
 });
 
-const common_exclude = ['cdk.out', 'package.json', 'yarn-error.log', 'coverage', '.DS_Store', '.idea', '.vs_code'];
+const common_exclude = ['cdk.out', 'yarn-error.log', 'coverage', '.DS_Store', '.idea', '.vs_code'];
 project.gitignore.exclude(...common_exclude);
 
 project.synth();
