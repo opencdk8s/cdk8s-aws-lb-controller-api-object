@@ -44,7 +44,7 @@ export class MyChart extends Chart {
 }
 
 const app = new App();
-new MyChart(app, 'example');
+new MyChart(app, 'example1');
 app.synth();
 ```
 
