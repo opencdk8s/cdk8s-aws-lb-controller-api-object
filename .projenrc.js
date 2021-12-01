@@ -4,9 +4,8 @@ const { ConstructLibraryCdk8s } = require('projen');
 const project = new ConstructLibraryCdk8s({
   author: 'Hunter Thompson',
   authorAddress: 'aatman@auroville.org.in',
-  cdk8sVersion: '1.0.0-beta.27',
-  cdk8sPlusVersion: '1.0.0-beta.50',
-  constructsVersion: '3.3.120',
+  cdk8sVersion: '1.2.0',
+  constructsVersion: '3.3.161',
   defaultReleaseBranch: 'development',
   stability: 'experimental',
   jsiiFqn: 'projen.ConstructLibraryCdk8s',
