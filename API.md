@@ -35,7 +35,7 @@ Name|Description
 
 
 
-__Implements__: [IConstruct](#constructs-iconstruct)
+__Implements__: [IConstruct](#constructs-iconstruct), [IDependable](#constructs-idependable)
 __Extends__: [ApiObject](#cdk8s-apiobject)
 
 ### Initializer

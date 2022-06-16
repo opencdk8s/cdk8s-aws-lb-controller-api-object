@@ -23,7 +23,7 @@ export class AWSLoadBalancerControllerObject extends ApiObject {
   public static readonly GVK: GroupVersionKind = {
     apiVersion: 'extensions/v1beta1',
     kind: 'Ingress',
-  }
+  };
   /**
    * Renders a Kubernetes manifest for an ingress object. https://github.com/kubernetes-sigs/aws-load-balancer-controller
    *

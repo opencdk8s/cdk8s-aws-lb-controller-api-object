@@ -1,11 +1,11 @@
-const { ConstructLibraryCdk8s } = require('projen');
+const { ConstructLibraryCdk8s } = require('projen/lib/cdk8s');
 
 
 const project = new ConstructLibraryCdk8s({
   author: 'Hunter Thompson',
   authorAddress: 'aatman@auroville.org.in',
-  cdk8sVersion: '1.2.0',
-  constructsVersion: '3.3.161',
+  cdk8sVersion: '2.2.74',
+  constructsVersion: '10.0.5',
   defaultReleaseBranch: 'development',
   stability: 'experimental',
   jsiiFqn: 'projen.ConstructLibraryCdk8s',
